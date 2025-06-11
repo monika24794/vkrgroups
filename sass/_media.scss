@@ -1,0 +1,210 @@
+// Extra large devices (large desktops, 1600px and up)
+@media screen and (max-width: 1199px) {
+    .banner-img img{
+        width: 100%;
+    }
+
+    h1, .h1 {
+        font-size: 70px;
+    }
+
+    .banner-bg-img{
+        width: 124%;
+    }
+    .carousel-caption {
+        bottom:5rem;
+        h2 {
+            font-size: 30px;
+        }
+    }
+    .banner-content-wrap{
+        margin-bottom: 0px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .process-wrap-detail {
+        max-height: -webkit-fill-available;
+        margin-bottom: 30px !important;
+    }
+
+    .contact-content-wrap {
+        display: block;
+        text-align: center;
+     a {
+        display: block;
+        width: 100%;
+        margin: 0 auto 20px;
+    }
+
+}
+    .technologies-unleashed{
+        .courses-wrap{
+            .car-courses-image {
+                img{
+                    width: 100%;
+                }
+            }
+        } 
+    } 
+
+}
+
+@media screen and (max-width: 1024px) {
+.carousel-caption {
+    bottom: 6rem;
+}
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding-left: 0rem;
+    }
+    .top-primary-link {
+        margin-left: 0px;
+    }
+    .carousel-caption {
+        bottom:0rem;
+        h1 br{
+            display: none;
+        }
+    }
+    .carousel-wrap{
+        padding: 50px 0px;
+        text-align: center;
+        .banner-img-main-wrap{
+            img{
+                width: 100%;
+            }
+        }
+    
+        .banner-img-main-wrap-device{
+            display:block;
+            margin-top:50px;
+            img{
+                width: 80%;
+            }
+        }
+    }
+
+    .carousel-caption {
+        h2 {
+            margin-bottom: 0px;
+        }
+    }
+
+    .upcoming-events {
+        .event-wrap {
+            min-height: 164px;
+        }
+    }
+
+    .carousel-wrap-detail {
+        padding: 0px 0px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+footer{
+    h6 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+} 
+.upcoming-events{
+    h4 {
+        margin-top: 30px;
+    }
+} 
+section {
+    padding: 50px 0px;
+    position: relative;
+} 
+.upcoming-events {
+    .event-wrap {
+        min-height:auto;
+    }
+}
+h2, .h2 {
+    font-size: 35px;
+}
+.middle-content-wrap{
+        .content-wrapper {
+            margin-bottom: 30px;
+        }
+    }
+
+    .right-section-wrap{
+        .right-section-wrap-content {
+            display: block;
+            .blog-img {
+                width: 100px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            .blog-content {
+                margin-left: 0px;
+            }
+        }
+    } 
+
+   
+
+}
+@media screen and (max-width: 600px) {
+    .testimonials{
+        .testimonial-wrap{
+            .card {
+                min-height: auto;
+            }
+            p {
+                height: auto;
+            }
+        } 
+    } 
+
+}
+@media screen and (max-width: 500px) {
+.carousel-caption{
+    h1 {
+        font-size: 40px;
+            line-height: 40px;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+} 
+
+.carousel-wrap-detail{
+    h1 {
+        font-size: 34px;
+        line-height: 35px;
+    }
+    h2 {
+        font-size: 20px !important;
+    }
+} 
+
+
+
+.carousel-wrap{
+    .banner-img-main-wrap-device{
+        img {
+            width: 100%;
+        }
+    } 
+} 
+
+    .middle-content-wrap{
+        .content-wrapper{
+            padding: 10px;
+        }
+    } 
+
+    .contact-form {
+        padding: 10px;
+    }
+}
